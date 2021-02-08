@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,7 +26,7 @@
 		B1C61878257D173600DD9FC5 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C61877257D173600DD9FC5 /* PasswordViewController.swift */; };
 		B1C6187C257D18A700DD9FC5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C6187B257D18A700DD9FC5 /* Data.swift */; };
 		B1C6187E257D1B6D00DD9FC5 /* ShakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C6187D257D1B6D00DD9FC5 /* ShakerViewController.swift */; };
-		FA4142E525A315FD0073F87C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA4142E425A315FD0073F87C /* GoogleService-Info.plist */; };
+		FA886FC025C4FD790041142F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA886FBF25C4FD790041142F /* GoogleService-Info.plist */; };
 		FA8997F2258C870D0000FFE3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8997F1258C870D0000FFE3 /* LoginViewController.swift */; };
 		FA8997FE258C878D0000FFE3 /* HouseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8997FD258C878D0000FFE3 /* HouseInfoViewController.swift */; };
 		FA899809258C88090000FFE3 /* ExercisesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA899808258C88090000FFE3 /* ExercisesCollectionViewController.swift */; };
@@ -84,7 +84,7 @@
 		D9779A2A393BFC4F2421DDB1 /* Pods_SSTayactive_2_SSTayactive_2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSTayactive_2_SSTayactive_2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB82E02B2CA563ED70007E4 /* Pods-SSTayactive 2-SSTayactive 2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSTayactive 2-SSTayactive 2UITests.release.xcconfig"; path = "Target Support Files/Pods-SSTayactive 2-SSTayactive 2UITests/Pods-SSTayactive 2-SSTayactive 2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		F20B6D5C733F57E3DC498FA8 /* Pods-SSTayactive 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSTayactive 2.debug.xcconfig"; path = "Target Support Files/Pods-SSTayactive 2/Pods-SSTayactive 2.debug.xcconfig"; sourceTree = "<group>"; };
-		FA4142E425A315FD0073F87C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA886FBF25C4FD790041142F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FA8997F1258C870D0000FFE3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FA8997FD258C878D0000FFE3 /* HouseInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfoViewController.swift; sourceTree = "<group>"; };
 		FA899808258C88090000FFE3 /* ExercisesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesCollectionViewController.swift; sourceTree = "<group>"; };
@@ -131,7 +131,6 @@
 				09D0A568252519F385D9745A /* Pods-SSTayactive 2Tests.debug.xcconfig */,
 				369D5546A1E9F00F18388A5C /* Pods-SSTayactive 2Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -184,7 +183,7 @@
 				FA8997FC258C875C0000FFE3 /* HouseInfoScreens */,
 				FA899806258C87AB0000FFE3 /* ProfileScreens */,
 				B1C61853257D12A200DD9FC5 /* Info.plist */,
-				FA4142E425A315FD0073F87C /* GoogleService-Info.plist */,
+				FA886FBF25C4FD790041142F /* GoogleService-Info.plist */,
 			);
 			path = "SSTayactive 2";
 			sourceTree = "<group>";
@@ -380,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1C61852257D12A200DD9FC5 /* LaunchScreen.storyboard in Resources */,
-				FA4142E525A315FD0073F87C /* GoogleService-Info.plist in Resources */,
+				FA886FC025C4FD790041142F /* GoogleService-Info.plist in Resources */,
 				B1C6184F257D12A200DD9FC5 /* Assets.xcassets in Resources */,
 				B1C6184D257D12A000DD9FC5 /* Main.storyboard in Resources */,
 			);

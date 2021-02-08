@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "tabBarView-1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "tabBarView-1@2x.png",
+      "filename" : "Illusionary Revenger Mordred Phantom V Full Art - Fandom.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "tabBarView-1@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
